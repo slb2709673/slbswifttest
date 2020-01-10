@@ -1,3 +1,4 @@
+source 'https://github.com/slb2709673/SlbSpces.git'
 use_frameworks!
 
 platform :ios, '8.0'
