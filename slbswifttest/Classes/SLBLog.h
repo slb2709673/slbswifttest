@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SLBLog : NSObject
 
+- (void)hahaha;
+
 @end
 
 NS_ASSUME_NONNULL_END

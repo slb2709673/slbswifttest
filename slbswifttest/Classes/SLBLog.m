@@ -8,5 +8,7 @@
 #import "SLBLog.h"
 
 @implementation SLBLog
-
+- (void)hahaha {
+    NSLog(@"hahahahaha");
+}
 @end
