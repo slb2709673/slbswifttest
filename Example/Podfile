@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'slbswifttest_Example' do
+  pod 'slbswifttest', :path => '../'
+
+  target 'slbswifttest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
