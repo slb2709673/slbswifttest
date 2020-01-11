@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14E946105A5FCEFB969423EB /* Pods_slbswifttest_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4FD292DCFDA755112B5FC8 /* Pods_slbswifttest_Tests.framework */; };
-		498E1492A02217BDCF5FB51F /* Pods_slbswifttest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 061C6FB43E2B59AA50D6C8B3 /* Pods_slbswifttest_Example.framework */; };
+		2D73D2B5C76C0B6D85AC1418 /* libPods-slbswifttest_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B0D5E09CBBC214E819709F /* libPods-slbswifttest_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A2D6B124001FEBA460E49E8D /* libPods-slbswifttest_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 424312A2F533E8FB412B8F8A /* libPods-slbswifttest_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		061C6FB43E2B59AA50D6C8B3 /* Pods_slbswifttest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_slbswifttest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		07261B6E4577791D87394BF2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2ED420A8F0079DF78D024FC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		07261B6E4577791D87394BF2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2ED420A8F0079DF78D024FC1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		424312A2F533E8FB412B8F8A /* libPods-slbswifttest_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-slbswifttest_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B0D5E09CBBC214E819709F /* libPods-slbswifttest_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-slbswifttest_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C464D538C00BCDF557DB5A /* Pods-slbswifttest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slbswifttest_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-slbswifttest_Tests/Pods-slbswifttest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* slbswifttest_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slbswifttest_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,9 +64,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		760EA6B87CFC89DD9DE557D8 /* Pods-slbswifttest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slbswifttest_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-slbswifttest_Example/Pods-slbswifttest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9D4FD292DCFDA755112B5FC8 /* Pods_slbswifttest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_slbswifttest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBBF284A958362355C1B01F /* Pods-slbswifttest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slbswifttest_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-slbswifttest_Example/Pods-slbswifttest_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B4E1953CDE71F2E2938F8FE4 /* slbswifttest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = slbswifttest.podspec; path = ../slbswifttest.podspec; sourceTree = "<group>"; };
+		B4E1953CDE71F2E2938F8FE4 /* slbswifttest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = slbswifttest.podspec; path = ../slbswifttest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C3BE0404A99D964A4A875B28 /* Pods-slbswifttest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slbswifttest_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-slbswifttest_Tests/Pods-slbswifttest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				498E1492A02217BDCF5FB51F /* Pods_slbswifttest_Example.framework in Frameworks */,
+				A2D6B124001FEBA460E49E8D /* libPods-slbswifttest_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				14E946105A5FCEFB969423EB /* Pods_slbswifttest_Tests.framework in Frameworks */,
+				2D73D2B5C76C0B6D85AC1418 /* libPods-slbswifttest_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				061C6FB43E2B59AA50D6C8B3 /* Pods_slbswifttest_Example.framework */,
-				9D4FD292DCFDA755112B5FC8 /* Pods_slbswifttest_Tests.framework */,
+				424312A2F533E8FB412B8F8A /* libPods-slbswifttest_Example.a */,
+				46B0D5E09CBBC214E819709F /* libPods-slbswifttest_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				38E973B3B126CFA30D8718BC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -294,24 +293,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		38E973B3B126CFA30D8718BC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-slbswifttest_Example/Pods-slbswifttest_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/slbswifttest/slbswifttest.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/slbswifttest.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-slbswifttest_Example/Pods-slbswifttest_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4F52E5298B744DDAB2387367 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

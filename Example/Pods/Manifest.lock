@@ -1,5 +1,5 @@
 PODS:
-  - slbswifttest (1.0.0)
+  - slbswifttest (1.0.2)
 
 DEPENDENCIES:
   - slbswifttest (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  slbswifttest: a428933d81a00f209f70febc1c23af8ef2e3e96f
+  slbswifttest: fb754c251549fd30105610d89b78ff205180e819
 
-PODFILE CHECKSUM: 7edd80380b433d12bead6e4d4274d18162972cb4
+PODFILE CHECKSUM: c6769990396f0c9885e724791ac46a9019464195
 
 COCOAPODS: 1.5.3
