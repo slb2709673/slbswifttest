@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'slbswifttest'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'A short description of slbswifttest.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
   s.static_framework = true
   s.source_files = 'slbswifttest/Classes/**/*'
-  
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   # s.resource_bundles = {
   #   'slbswifttest' => ['slbswifttest/Assets/*.png']
   # }

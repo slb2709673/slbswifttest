@@ -19,5 +19,8 @@
     "ios": "8.0"
   },
   "static_framework": true,
-  "source_files": "slbswifttest/Classes/**/*"
+  "source_files": "slbswifttest/Classes/**/*",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  }
 }
